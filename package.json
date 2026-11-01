@@ -1,0 +1,21 @@
+{
+  "name": "semester-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsx quiz-1/quiz-firzan.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firzanandrianto/semester-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/firzanandrianto/semester-5/issues"
+  },
+  "homepage": "https://github.com/firzanandrianto/semester-5#readme"
+}
