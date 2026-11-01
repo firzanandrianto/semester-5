@@ -1,5 +1,3 @@
-
-// Class Mario = cetakan untuk membuat karakter Mario
 class Mario {
   name: string;
   health: number;
@@ -7,7 +5,6 @@ class Mario {
   coin: number;
   form: string;
 
-  // constructor = dijalankan otomatis saat membuat object baru
   constructor(name: string, health: number, speed: number) {
     this.name = name;
     this.health = health;
@@ -49,12 +46,11 @@ class Mario {
   }
 }
 
-// Luigi mewarisi (extends) semua milik Mario, lalu menambah fitur sendiri
 class Luigi extends Mario {
   jumpHeight: number;
 
   constructor(name: string, health: number, speed: number) {
-    super(name, health, speed); // panggil constructor Mario dulu
+    super(name, health, speed); 
     this.jumpHeight = 10;
   }
 
@@ -63,7 +59,6 @@ class Luigi extends Mario {
   }
 }
 
-// Membuat object dari class
 const mario = new Mario("Mario", 100, 5);
 mario.walking();
 mario.sprint();
