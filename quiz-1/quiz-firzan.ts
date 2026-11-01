@@ -1,5 +1,3 @@
-// Quiz 1 PBO - Firzan
-// Tema: Mario (class, object, method, inheritance)
 
 // Class Mario = cetakan untuk membuat karakter Mario
 class Mario {
